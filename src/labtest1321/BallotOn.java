@@ -1,15 +1,17 @@
 package labtest1321;
 
-public class BallotOn {
+public class BallotOn extends State {
 
-	private String state="on";
+	BallotOn(){
+	state="on";
+	}
 	
 
-	public String getState() {
-		return state;
-	}
-
-	public void setState(String state) {
-		this.state = state;
+	public void switchState(BallotUnit bu) {
+		// TODO Auto-generated method stub
+		BallotOff on = new BallotOff();
+		bu.setState(on);
 	}
 }
+
+
