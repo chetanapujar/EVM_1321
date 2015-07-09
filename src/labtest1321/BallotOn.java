@@ -2,7 +2,7 @@ package labtest1321;
 
 public class BallotOn {
 
-	private String state="ON";
+	private String state="on";
 
 	public String getState() {
 		return state;
