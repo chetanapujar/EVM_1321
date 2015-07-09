@@ -1,6 +1,8 @@
 package labtest1321;
 
-public class BallotUnit {
+import java.util.ArrayList;
+
+public class BallotUnit<slots> {
 	
 	ArrayList<Slot> slots = new ArrayList<Slot>();
 	State state;

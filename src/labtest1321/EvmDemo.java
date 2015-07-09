@@ -10,9 +10,6 @@ public class EvmDemo {
 		BU = new BallotUnit();
 	}
 	
-	public void registerCandidate(String name){
-		BU.setCandidateSlot(name);
-	}
 	
 	
 	
